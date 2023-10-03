@@ -6,25 +6,7 @@
 - [pgcli](https://www.pgcli.com/)
 - `psql` (More info about `psql` [brew package](https://stackoverflow.com/a/49689589/261061))
 
-[Homebrew](https://brew.sh/index_fr) instructions:
-
-```sh
-$ brew install docker libpq
-$ brew link --force libpq
-$ pip install pgcli
-```
-
-Fedora, install only PostgreSQL client utils, like `psql`:
-
-```sh
-$ sudo dnf install postgresql.x86_64
-```
-
-Install `pgcli`:
-
-```sh
-$ pip install pgcli
-```
+See [`prerequisites.md`](prerequisites.md) to get more information on how to install this software.
 
 ## Note about psql and pgcli
 
