@@ -54,4 +54,6 @@ $ pip install pgcli
 ```sh
 $ ./scripts/doctor.sh
 docker 24.0.6 >= 24.0.6 installed ✅
+psql installed ✅
+pgcli installed ✅
 ```
